@@ -24,3 +24,6 @@ variable "require_mfa" {
   default     = false
 }
 
+variable "provider" {
+  description = "Alias of the provider for multi-account setups"
+}
